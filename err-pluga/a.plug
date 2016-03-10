@@ -1,0 +1,9 @@
+[Core]
+Name = A
+Module = pluga
+
+[Documentation]
+Description = Just a test.
+
+[Python]
+Version = 3

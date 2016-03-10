@@ -1,0 +1,9 @@
+[Core]
+Name = B
+Module = plugb
+
+[Documentation]
+Description = Just a test.
+
+[Python]
+Version = 3
