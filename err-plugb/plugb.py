@@ -3,11 +3,11 @@
 """nah"""
 from errbot import BotPlugin, botcmd
 
+
 class BotTest(BotPlugin):
-    """ Test """
+    """Test"""
+
     @botcmd
     def b(self, *args):
-        """ test self messaging """
-        return 'yeah I am b'
-
-
+        """test self messaging"""
+        return "yeah I am b"

@@ -2,13 +2,14 @@
 
 """nah"""
 from errbot import BotPlugin, botcmd
+
 from common import addition
 
+
 class BotTest(BotPlugin):
-    """ Test """
+    """Test"""
+
     @botcmd
     def a(self, *args):
-        """ test self messaging """
-        return 'yeah I am A and I know how to add 2+2=%d' % addition(2, 2)
-
-
+        """test self messaging"""
+        return "yeah I am A and I know how to add 2+2=%d" % addition(2, 2)
